@@ -1,0 +1,20 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist",
+    "allowJs": true,
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowUnreachableCode": false,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "typeRoots": [ "./typings" ],
+    "types": ["node"]
+  },
+  "include": [
+    "./index.ts"
+  ],
+  "exclude": ["node_modules", "dist", ".eslintrc.js"]
+}
